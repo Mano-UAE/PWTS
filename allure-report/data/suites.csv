@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6440","@P2 @Regression logotest","Microsoft Edge","2026-10-01","passed","2026-10-01","demowebshop Home Page Tests","reports.spec.ts","",""
+"","4336","@P1 @Sanity Login test with valid credentials","Microsoft Edge","2026-10-01","passed","2026-10-01","demowebshop User Login Tests","reports.spec.ts","",""
+"","33482","verify css","Microsoft Edge","2026-10-01","passed","2026-10-01","","css.spec.ts","",""
+"","8831","@P1 @Sanity demoblaze Login test","Microsoft Edge","2026-10-01","failed","2026-10-01","demowebshop User Login Tests","reports.spec.ts","",""
+"","1","@P2 @Regression demowebshop search test","Microsoft Edge","2026-10-01","skipped","2026-10-01","demowebshop User Login Tests","reports.spec.ts","",""
+"","3277","@P2 @Regression title test","Microsoft Edge","2026-10-01","passed","2026-10-01","demowebshop Home Page Tests","reports.spec.ts","",""
+"","3815","@P1 @Sanity Login test with in-valid credentials","Microsoft Edge","2026-10-01","passed","2026-10-01","demowebshop User Login Tests","reports.spec.ts","",""

@@ -1,0 +1,58 @@
+<testsuites id="" name="" tests="7" failures="1" skipped="1" errors="0" time="27.817914000000002">
+<testsuite name="css.spec.ts" timestamp="2026-10-01T10:51:59.890Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="33.482" errors="0">
+<testcase name="verify css" classname="css.spec.ts" time="33.482">
+</testcase>
+</testsuite>
+<testsuite name="reports.spec.ts" timestamp="2026-10-01T10:51:59.890Z" hostname="Microsoft Edge" tests="6" failures="1" skipped="1" time="26.699" errors="0">
+<testcase name="demowebshop Home Page Tests › @P2 @Regression logotest" classname="reports.spec.ts" time="6.44">
+</testcase>
+<testcase name="demowebshop Home Page Tests › @P2 @Regression title test" classname="reports.spec.ts" time="3.277">
+</testcase>
+<testcase name="demowebshop User Login Tests › @P1 @Sanity Login test with in-valid credentials" classname="reports.spec.ts" time="3.815">
+</testcase>
+<testcase name="demowebshop User Login Tests › @P1 @Sanity Login test with valid credentials" classname="reports.spec.ts" time="4.336">
+</testcase>
+<testcase name="demowebshop User Login Tests › @P2 @Regression demowebshop search test" classname="reports.spec.ts">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="demowebshop User Login Tests › @P1 @Sanity demoblaze Login test" classname="reports.spec.ts" time="8.831">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/reports-demowebshop-User-L-af736-Sanity-demoblaze-Login-test-Microsoft-Edge/error-context.md]]
+]]>
+</system-out>
+<failure message="expect(locator).toBeVisible() failed" type="expect.toBeVisible">
+<![CDATA[  [Microsoft Edge] › reports.spec.ts:72:9 › demowebshop User Login Tests › @P1 @Sanity demoblaze Login test 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('link', { name: 'Log out' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" with timeout 5000ms
+      - waiting for getByRole('link', { name: 'Log out' })
+
+
+      76 |         await page.locator('#loginpassword').fill('test@123X');
+      77 |         await page.getByRole('button', { name: 'Log in' }).click();
+    > 78 |         await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible();
+         |                                                                   ^
+      79 |         await expect(page.locator('#nameofuser')).toContainText('Welcome pavanol');
+      80 |
+      81 |     });
+        at /Users/manojb/Automation/PWTS/tests/reports.spec.ts:78:67
+
+    Error Context: ../test-results/reports-demowebshop-User-L-af736-Sanity-demoblaze-Login-test-Microsoft-Edge/error-context.md
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
